@@ -1,118 +1,107 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="">
+      <section>
+        <div className="mx-auto max-w-7xl">
+          <h1>Hi, I&apos;m Chris.</h1>
+          <p>
+            Welcome to my portfolio website! With extensive experience in
+            software engineering and computer hardware, I am well-equipped to
+            help you with a wide range of projects and challenges. Whether
+            you're looking for help with a software development project, or want
+            to upgrade your computer hardware, I have the skills and expertise
+            to help you achieve your goals. My focus on quality, reliability,
+            and customer satisfaction sets me apart, and I am committed to
+            delivering exceptional results that exceed your expectations. Thank
+            you for visiting my portfolio website, and I look forward to working
+            with you!
+          </p>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+      </section>
+      <section>
+        <div className="mx-auto max-w-7xl">
+          <h2>Crafting Digital Experiences</h2>
+          <p>
+            As a full stack developer with expertise in Java, JavaScript,
+            TypeScript, and Python, I pride myself on my ability to create
+            clean, efficient code and solve complex problems with innovative
+            solutions. My experience has taught me to approach development from
+            both a technical and user-centered perspective, ensuring that the
+            final product is both functional and intuitive. I am passionate
+            about staying up to date with the latest technologies and techniques
+            and constantly challenge myself by practicing coding challenges in
+            my free time. Whether it's front-end design or back-end development,
+            I am confident in my ability to deliver high-quality, scalable
+            solutions that meet the needs of clients and users alike.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          <h3>Some Stacks I Use:</h3>
+          <ul>
+            <li>
+              Java with Spring Boot - enterprise-level applications that require
+              high performance and reliability.
+            </li>
+            <li>
+              Python with Flask - lightweight web framework that allows
+              developers to build web applications quickly and easily.
+            </li>
+            <li>
+              MERN - full-stack JavaScript framework that includes MongoDB,
+              Express.js, React, and Node.js.
+            </li>
+            <li>
+              Next.js - React-based open-source framework that allows developers
+              to build server-side rendered React applications with ease
+            </li>
+            <li>
+              T3 - full-stack TypeScript framework that includes Next.js, tRPC,
+              Prisma, and NextAuth.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div className="mx-auto max-w-7xl">
+          <h2>Data Center Expertise</h2>
+          <p>
+            Over the past three years, I have had the privilege of working in a
+            dynamic and challenging data center environment. During this time, I
+            have gained extensive experience building, configuring, testing, and
+            replacing computer parts. Whether it's installing new servers,
+            upgrading existing ones, or troubleshooting hardware issues, I have
+            developed a deep understanding of the intricacies of computer
+            hardware and the importance of maintaining a reliable and efficient
+            data center infrastructure.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
+          <p>
+            As a key member of the data center team, I have been responsible for
+            ensuring that all hardware is up-to-date, properly configured, and
+            running smoothly. This has involved working closely with other team
+            members to identify and address hardware issues, as well as
+            collaborating with vendors and suppliers to ensure that we have
+            access to the latest and most reliable hardware components. Through
+            my work in the data center, I have gained a reputation for being
+            detail-oriented, thorough, and highly skilled in all aspects of
+            hardware management.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          <p>
+            Looking back on my time in the data center, I am proud of the many
+            accomplishments I have achieved. From building out new server racks
+            to replacing failed components in existing systems, I have played a
+            key role in ensuring that the data center runs smoothly and
+            efficiently. Through my work in this challenging environment, I have
+            developed a deep appreciation for the importance of teamwork,
+            attention to detail, and a commitment to excellence. Whether I am
+            working on a complex hardware installation or troubleshooting a
+            difficult issue, I am always striving to deliver the best possible
+            results for my team and our clients.
           </p>
-        </a>
-      </div>
+        </div>
+      </section>
     </main>
-  )
+  );
 }
